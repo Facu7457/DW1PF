@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <header class="bg-dark text-white p-3">
+    <nav class="container d-flex justify-content-between align-items-center">
+      <h1 class="logo">🛒<img class="imgj" src="./img/descarga (1).jpg" height="80px" width="260px"  alt="Logo"></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="index.html" class="nav-link text-white">Inicio</a></li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Productos </a>
+          <ul class="abcz dropdown-menu">
+            <li><a class="dropdown-item" href="index.html #Productos">Productos Destacados</a></li>
+            <li><a class="dropdown-item" href="index.html #Productos2">Productos Varios</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="index.html #Ofertas" class="nav-link text-white">Ofertas</a></li>
+        <li class="nav-item"><a href="index.html #Contacto" class="nav-link text-white">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/D_667742-MLA79973558747_102024-I.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/D_907642-MLA32524355859_102019-I.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/D_Q_NP_2X_763571-MLA81795254636_012025-E.webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+
+
+<section class="container my-5">
+  <h2 class="mb-4 text-center">Productos Destacados</h2>
+  <div class="row justify-content-center g-4" id="Productos">
+    
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="./img/D_667742-MLA79973558747_102024-I.jpg" class="card-img-top" alt="Producto 1">
+        <div class="card-body text-center">
+          <h5 class="card-title">Matafuego ABC</h5>
+          <p class="card-text">Matafuego Nuevo Abc 10 Kg C/ Soporte, Chapa Baliza Y Tarjeta.</p>
+          <p class="plata">$160.000</p>
+          <a href="./abc.html" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="./img/D_907642-MLA32524355859_102019-I.jpg" class="card-img-top" alt="Producto 2">
+        <div class="card-body text-center">
+          <h5 class="card-title">Matafuego Auto</h5>
+          <p class="card-text">Matafuego Nuevo Auto X 1 Kg. Con Soporte.</p>
+          <p class="plata">$30.000</p>
+          <a href="auto.html" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="./img/D_Q_NP_2X_763571-MLA81795254636_012025-E.webp" class="card-img-top" alt="Producto 3">
+        <div class="card-body text-center">
+          <h5 class="card-title">Matafuego CO2</h5>
+          <p class="card-text">Matafuego Co2 Bc 5kg C/ Habilitación + Chapa Baliza + Ganch.</p>
+          <p class="plata">$320.000</p>
+          <a href="co2.html" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="container my-5">
+  <h2 class="mb-4 text-center">Productos Varios</h2>
+  <div class="row justify-content-center g-4" id="Productos2">
+    
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class=" card h-100">
+        <img src="./img/D_896859-MLA32522360374_102019-I.jpg" class="card-img-top" alt="Producto 4-5">
+        <div class="card-body text-center">
+          <h5 class="card-title">Gabinete de Matafuego</h5>
+          <a href="gab.html" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class=" card h-100">
+        <img src="./img/D_Q_NP_2X_932580-MLA45873960067_052021-E.webp" class="card-img-top" alt="Producto 6-8">
+        <div class="card-body text-center">
+          <h5 class="card-title">Balde contra Incendios</h5>
+          <a href="bal.html" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class=" card h-100">
+        <img src="./img/D_NQ_NP_921950-MLA82625973242_032025-O.webp" class="card-img-top" alt="Producto 9-10">
+        <div class="card-body text-center">
+          <h5 class="card-title">Mangera de Incendios</h5>
+          <a href="man.html" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class=" card h-100">
+        <img src="./img/D_NQ_NP_879724-MLA72088716845_102023-O.webp" class="card-img-top" alt="Producto 11-13">
+        <div class="card-body text-center">
+          <h5 class="card-title">Kit Seguridad</h5>
+          <a href="kit.html" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="container my-5">
+  <h2 class="mb-4 text-center">Ofertas y Promos</h2>
+  <div class="row justify-content-center g-4" id="Ofertas">
+    
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="./img/of1.jpg" class="card-img-top" alt="Producto 14">
+        <div class="card-body text-center">
+          <h5 class="card-title">Soporte Para Camion + Matafuego Nuevo 5 Kg</h5>
+          <p>Descuento:</p><p class="platas">10%</p>
+          <p class="plata">$180.000</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="./img/of4.webp" class="card-img-top" alt="Producto 15">
+        <div class="card-body text-center">
+          <h5 class="card-title">2 Gabinetes Nuevo Matafuego Polvo Abc 5 Kg</h5>
+          <p>Promocion:</p><p class="platas">2x1</p>
+          <p class="plata">$62.000</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white pt-4 pb-2 mt-5">
+  <div class="container">
+    <div class="row" id="Contacto">
+
+      <div class="col-md-4 mb-3 text-center text-md-start">
+        <h5>FACUNDO MATAFUEGOS</h5>
+        <p class="small">Protegiendo tu seguridad desde 1995.</p>
+      </div>
+
+      <div class="col-md-4 mb-3 text-center">
+        <h6>Enlaces</h6>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white text-decoration-none">Inicio</a></li>
+          <li><a href="index.html#Productos" class="text-white text-decoration-none">Productos</a></li>
+          <li><a href="index.html#Ofertas" class="text-white text-decoration-none">Ofertas</a></li>
+          <li><a href="index.html#Contacto" class="text-white text-decoration-none">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 mb-3 text-center text-md-end">
+        <h6>Contacto</h6>
+        <p class="small mb-1">📍 Av. Directorio 4552, Parque Avellaneda</p>
+        <p class="small mb-1">📞 +54 11 1234-5678</p>
+        <p class="small">📧 contacto @facundomatafuegos@gmail.com</p>
+      </div>
+
+    </div>
+
+    <hr class="bg-light">
+
+    <div class="text-center small">
+      &copy; 2025 Facundo Matafuegos. Todos los derechos reservados.
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

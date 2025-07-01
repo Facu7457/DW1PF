@@ -1,0 +1,68 @@
+
+
+div.carousel{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: rgb(230, 137, 16);
+    font-size: 40px;
+}
+
+body{
+    background-color: #f3f3f3cb;
+}
+
+
+p.plata{
+    color: green;
+    text-decoration: underline;
+}
+
+p.platas{
+    color: rgb(59, 59, 255);
+}
+
+
+.card-img-top{
+    width: 250px;
+}
+
+.contenedor40{
+    display: flex;
+    justify-content: space-around;
+}
+
+body.productos{
+    background-image: url(../img/descarga.jpg);
+    background-size: auto;
+}
+
+div.imylo{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+img.imj{
+    width: 400px;
+}
+
+
+img.imgj{
+    border-radius: 15px;
+}
+
+
+
+div.prv {
+    border: 4px solid rgb(155, 155, 155);
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
